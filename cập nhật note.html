@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        </div>
+
+    <script>
+        // Tạo một phần tử h1 mới
+        var headingElement = document.createElement('h1');
+
+        // Đặt nội dung HTML bên trong phần tử h1
+        headingElement.innerHTML = "Hello IT2024";
+
+        // Đặt màu chữ của phần tử h1 thành màu đỏ
+        headingElement.style.color = "red";
+
+        // Lấy tham chiếu đến phần tử div có id là "container"
+        var containerElement = document.getElementById("container");
+
+        // Thêm phần tử h1 làm con của phần tử container
+        containerElement.appendChild(headingElement);
+    </script>
+</body>
+</html>
